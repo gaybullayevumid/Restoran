@@ -13,10 +13,7 @@ class ServicePageView(TemplateView):
     template_name = 'pages/service.html'
 
 class MenuPageView(TemplateView):
-    template_name = 'pages/manu.html'
-
-class PagesView(TemplateView):
-    template_name = 'pages/pages.html'
+    template_name = 'pages/menu.html'
 
 class BookPageView(TemplateView):
     template_name = 'pages/book.html'
